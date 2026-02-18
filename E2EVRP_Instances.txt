@@ -1,0 +1,10 @@
+Textfiles, extension ".dat"
+Lines starting with a "!" are human readable comments and can be disregarded by the reading routine. 
+First we specify truck characteristics in one line: Number of trucks, capacity, cost per distance, fixcost.
+Then we specify city freighter characteristics: Max. number of city freighters per satellite, total number of city freighters available, capacity, cost per distance, fixed cost, maximum charging level, energy consumption per distance
+Then we define depot and satellites in one line: x,y coordinates of the depot 
+Then all x,y coordinates, handling cost per unit, maximum capacity, fixed cost of the satellites.
+Then we define all the customers in one line: x,y,demand.
+Finally we set the locations for the charging stations. Note that the coordinates of the satellites are doubled also here, as we assume that every satellite also serves as a charging station, plus some additional locations of course.
+
+All distances are calculated as Euclidean and rounded to the nearest integer value. To reduce the effect of rounding, all x-and y-coordinates from the classical2EVRP instances have been multiplied by a factor ten.
