@@ -1,4 +1,4 @@
-# E2EVRP – Electric Two-Echelon Vehicle Routing Problem
+# E2EVRP – Electric Two-Echelon Vehicle Routing Problem with RL
 
 End-to-end pipeline for solving and *learning to solve* the **E2EVRP** — from instance parsing through an ALNS metaheuristic to a GNN-backed MDP environment ready for offline reinforcement learning.
 
